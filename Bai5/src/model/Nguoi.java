@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
 import java.text.ParseException;
@@ -9,10 +6,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-/**
- *
- * @author Hi
- */
 public class Nguoi {
     private String Hoten310;
     private String GioiTinh310;
@@ -95,7 +88,5 @@ public class Nguoi {
         System.out.println("Gioi tinh: "+this.GioiTinh310);
         System.out.println("Ngay sinh: "+dateToString(this.NgaySinh310));
         System.out.println("Nghe nghiep: "+this.Nghe310);
-    }
-    
-    
+    }    
 }

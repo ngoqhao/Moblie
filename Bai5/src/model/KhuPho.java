@@ -6,10 +6,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- *
- * @author Hi
- */
 public class KhuPho {
     private List<HoDan> dshd = new ArrayList<>();
     

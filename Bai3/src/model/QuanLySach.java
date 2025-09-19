@@ -1,17 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- *
- * @author Hi
- */
 public class QuanLySach {
     List<TaiLieu> dstl = new ArrayList<>();
     public QuanLySach(){};
@@ -81,8 +74,8 @@ public class QuanLySach {
             {
                 TL310.Show();
                 return;
-            }else
-                System.out.println("Khong co ma nay!!");
+            }
+        System.out.println("Khong co ma nay!!");
         
     }
     public void TimTL(){
@@ -97,7 +90,7 @@ public class QuanLySach {
                 case 1:
                     for (TaiLieu TL310 : dstl)
                         if (TL310 instanceof Sach)
-                        TL310.Show();
+                            TL310.Show();
                     break;
                 case 2:
                     for (TaiLieu TL310 : dstl)

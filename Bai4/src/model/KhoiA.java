@@ -1,30 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Hi
- */
 public class KhoiA extends ThiSinh {
     private String mon1_310;
     private String mon2_310;
     private String mon3_310;
-
-    public KhoiA() {
-    }
-
+    public KhoiA() {}
     public KhoiA(String mon1_310, String mon2_310, String mon3_310, String SBD310, String HoTen310, String DiaChi310, String DienUuTien310) {
         super(SBD310, HoTen310, DiaChi310, DienUuTien310);
         this.mon1_310 = mon1_310;
         this.mon2_310 = mon2_310;
         this.mon3_310 = mon3_310;
     }
-    
     @Override 
     public void NhapTT(Scanner sc){
         super.NhapTT(sc);
@@ -39,6 +28,5 @@ public class KhoiA extends ThiSinh {
     public void Show(){
         super.Show();
         System.out.println("To hop mon thi: "+this.mon1_310+", "+this.mon2_310+", "+this.mon3_310);
-    }
-    
+    }  
 }

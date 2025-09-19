@@ -35,8 +35,7 @@ public class Nguoi {
         this.Que310 = Que310;
     }
 
-    public Nguoi() {
-    }
+    public Nguoi() {}
 
     public Nguoi(String Hoten310, Date NgaySinh310, String Que310) {
         this.Hoten310 = Hoten310;
@@ -64,10 +63,8 @@ public class Nguoi {
         return date;
     }
     private String dateToString(Date date){
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy");
-        
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy");       
         String strDate = sdf.format(date);
-        
         return strDate;
     }
     public void Show()

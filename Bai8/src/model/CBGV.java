@@ -11,7 +11,7 @@ public class CBGV extends Nguoi {
 	private double luongThucLinh310;
 
 	public double getLuongThucLinh() {
-		return luongThucLinh310;
+            return luongThucLinh310;
 	}
         
 	public CBGV() {}
@@ -24,29 +24,27 @@ public class CBGV extends Nguoi {
         }
         @Override
 	public void NhapTT(Scanner sc) {
-		super.NhapTT(sc);
-		System.out.print("\tNhap luong cung: ");
-		luongCung310 = sc.nextDouble();
-		sc.nextLine();
+            super.NhapTT(sc);
+            System.out.print("\tNhap luong cung: ");
+            luongCung310 = sc.nextDouble();
+            sc.nextLine();
+            System.out.print("\tNhap thuong: ");
+            thuong310 = sc.nextDouble();
+            sc.nextLine();
 
-		System.out.print("\tNhap thuong: ");
-		thuong310 = sc.nextDouble();
-		sc.nextLine();
-
-		System.out.print("\tNhap phat: ");
-		phat310 = sc.nextDouble();
-		sc.nextLine();
-		luongThucLinh310 = luongCung310 + thuong310 - phat310;
+            System.out.print("\tNhap phat: ");
+            phat310 = sc.nextDouble();
+            sc.nextLine();
+            luongThucLinh310 = luongCung310 + thuong310 - phat310;
 	}
-
 	@Override
 	public void Show() {
-		super.Show();
-                String luongC = String.format("%.0f", luongCung310);
-		System.out.println("\tLuong cung: " + luongC);
-		System.out.println("\tThuong: " + thuong310);
-		System.out.println("\tPhat: " + phat310);
-                String luongStr = String.format("%.0f", luongThucLinh310);
-		System.out.println("\tLuong thuc linh: " + luongStr);
+            super.Show();
+            String luongC = String.format("%.0f", luongCung310);
+            System.out.println("\tLuong cung: " + luongC);
+            System.out.println("\tThuong: " + thuong310);
+            System.out.println("\tPhat: " + phat310);
+            String luongStr = String.format("%.0f", luongThucLinh310);
+            System.out.println("\tLuong thuc linh: " + luongStr);
 	}
 }

@@ -1,24 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-import java.util.Date;
 import java.util.Scanner;
 
-/**
- *
- * @author Hi
- */
 public class CongNhan extends CanBo{
     private String Bac310;
-
-    public String getBac310() {
+    public String getBac() {
         return Bac310;
     }
-
-    public void setBac310(String Bac310) {
+    public void setBac(String Bac310) {
         this.Bac310 = Bac310;
     }
     
@@ -39,7 +28,5 @@ public class CongNhan extends CanBo{
     public void Show(){
         super.Show();
         System.out.println("Bac: "+this.Bac310);
-    }     
-    
-    
+    }        
 }

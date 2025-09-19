@@ -1,23 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package bai1;
 
 import java.util.Scanner;
 import model.PhanSo;
 
-/**
- *
- * @author Hi
- */
 public class Bai1 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         PhanSo ps1_310 = new PhanSo();
         PhanSo ps2_310 = new PhanSo();
         PhanSo psT_310 = new PhanSo();

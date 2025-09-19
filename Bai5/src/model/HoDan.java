@@ -1,17 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
 import java.util.Date;
-import java.util.List;
 import java.util.Scanner;
 
-/**
- *
- * @author Hi
- */
 public class HoDan extends Nguoi {
     private int SoTV310;
     private int SoNha310;
@@ -25,8 +17,6 @@ public class HoDan extends Nguoi {
         return SoNha310;
     }
 
-    
-    
     public HoDan() {
         list = new Nguoi[10];
     }

@@ -1,15 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Hi
- */
 public class TapChi extends TaiLieu {
     private int SoPH310;
     private int ThangPH310;
@@ -52,7 +45,5 @@ public class TapChi extends TaiLieu {
         super.Show();
         System.out.println("So phat hanh: "+this.SoPH310);
         System.out.println("Thang phat hanh: "+this.ThangPH310);
-    }
-    
-    
+    }   
 }

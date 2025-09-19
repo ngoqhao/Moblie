@@ -1,17 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- *
- * @author Hi
- */
 public class TuyenSinh {
     List<ThiSinh> dsts = new ArrayList<>();
     public TuyenSinh(){};
@@ -66,5 +59,4 @@ public class TuyenSinh {
                 System.out.println("Khong co ma nay!!");
         
     }
-    
 }

@@ -66,9 +66,7 @@ public class SinhVien {
     }
     private String dateToString(Date date){
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy");
-        
         String strDate = sdf.format(date);
-        
         return strDate;
     } 
     
@@ -86,7 +84,7 @@ public class SinhVien {
     
     public void Show(){
         System.out.println("\tHo ten: " + hoTen310);
-	System.out.println("\tNgay sinh: " + ngaySinh310);
+	System.out.println("\tNgay sinh: " + dateToString(ngaySinh310));
 	System.out.println("\tMa sinh vien: " + maSV310);
 	System.out.println("\tLop: " + lop310);
     }

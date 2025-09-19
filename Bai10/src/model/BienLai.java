@@ -21,7 +21,6 @@ public class BienLai extends KhachHang {
         this.chiSoCu310 = chiSoCu310;
         this.tien310 = tien310;
     }
-
         
     public void NhapTT(Scanner sc) {
 	super.NhapTT(sc);

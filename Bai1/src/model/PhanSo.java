@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
-/**
- *
- * @author Hi
- */
 import static java.lang.Math.abs;
 import java.util.Scanner;
 public class PhanSo {
@@ -97,6 +90,5 @@ public class PhanSo {
         int r310= UCLN(Tu_310,Mau_310);
         Tu_310 = Tu_310 / r310;
         Mau_310 = Mau_310 /r310;
-    }
-    
+    }    
 }
