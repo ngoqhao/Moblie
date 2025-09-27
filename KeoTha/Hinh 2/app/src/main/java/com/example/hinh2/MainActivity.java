@@ -1,6 +1,8 @@
 package com.example.hinh2;
 
 import android.os.Bundle;
+import android.text.Html;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
