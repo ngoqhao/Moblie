@@ -73,11 +73,11 @@
         android:background="@color/white"
         android:padding="4dp"
         android:scaleType="centerCrop"
+        android:src="@drawable/avatar"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toTopOf="@id/header_bg"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toTopOf="@id/header_bg" />
 
     <!-- Tên -->
     <TextView
